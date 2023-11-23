@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as e}from"./chunks/framework.knLoFo0c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-abstraction.md","filePath":"java/java-abstraction.md"}'),r={name:"java/java-abstraction.md"};function o(s,c,n,i,p,_){return t(),e("div")}const v=a(r,[["render",o]]);export{m as __pageData,v as default};

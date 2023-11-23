@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.knLoFo0c.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-encapsulation.md","filePath":"java/java-encapsulation.md"}'),n={name:"java/java-encapsulation.md"};function o(s,c,r,p,i,l){return e(),t("div")}const m=a(n,[["render",o]]);export{d as __pageData,m as default};

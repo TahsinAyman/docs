@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.knLoFo0c.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-final-keyword.md","filePath":"java/java-final-keyword.md"}'),r={name:"java/java-final-keyword.md"};function o(n,s,c,d,i,f){return e(),t("div")}const _=a(r,[["render",o]]);export{p as __pageData,_ as default};

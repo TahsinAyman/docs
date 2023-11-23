@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.knLoFo0c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-exceptions.md","filePath":"java/java-exceptions.md"}'),o={name:"java/java-exceptions.md"};function s(c,n,r,p,i,_){return e(),t("div")}const v=a(o,[["render",s]]);export{m as __pageData,v as default};

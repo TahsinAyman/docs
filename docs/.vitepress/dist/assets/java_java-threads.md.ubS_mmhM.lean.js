@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.knLoFo0c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-threads.md","filePath":"java/java-threads.md"}'),r={name:"java/java-threads.md"};function s(o,c,n,d,p,_){return e(),t("div")}const v=a(r,[["render",s]]);export{m as __pageData,v as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.knLoFo0c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-packages.md","filePath":"java/java-packages.md"}'),s={name:"java/java-packages.md"};function c(r,o,n,p,_,d){return e(),t("div")}const v=a(s,[["render",c]]);export{m as __pageData,v as default};
