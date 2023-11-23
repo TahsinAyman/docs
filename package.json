@@ -1,0 +1,14 @@
+{
+  "name": "cdr",
+  "version": "1.0.0",
+  "author": "Tahsin Ayman",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.29"
+  }
+}

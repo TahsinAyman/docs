@@ -1,0 +1,43 @@
+export default function content(prefix) {
+  return [
+    { text: "Introduction", link: `${prefix}/introduction` },
+    { text: "Environment Setup", link: `${prefix}/java-environment-setup` },
+
+    { text: "Abstraction", link: `${prefix}/java-abstraction` },
+    { text: "Access Modifiers", link: `${prefix}/java-access-modifiers` },
+    { text: "Arrays", link: `${prefix}/java-arrays` },
+    { text: "Break", link: `${prefix}/java-break` },
+    { text: "Classes", link: `${prefix}/java-classes` },
+    { text: "Constructors", link: `${prefix}/java-constructors` },
+    { text: "Continue", link: `${prefix}/java-continue` },
+    { text: "Data Types", link: `${prefix}/java-data-types` },
+    { text: "Date Time", link: `${prefix}/java-date-time` },
+    { text: "Do While Loop", link: `${prefix}/java-do-while-loop` },
+    { text: "Encapsulation", link: `${prefix}/java-encapsulation` },
+    
+    { text: "Exceptions", link: `${prefix}/java-exceptions` },
+    { text: "Files", link: `${prefix}/java-files` },
+    { text: "Final Keyword", link: `${prefix}/java-final-keyword` },
+    { text: "For Loop", link: `${prefix}/java-for-loop` },
+    { text: "Getters and Setters", link: `${prefix}/java-getters-and-setters` },
+
+    { text: "Hello World", link: `${prefix}/java-hello-world` },
+    { text: "If Else", link: `${prefix}/java-if-else` },
+    { text: "Inheritance", link: `${prefix}/java-inheritance` },
+    { text: "Installation", link: `${prefix}/java-installation` },
+    { text: "Methods", link: `${prefix}/java-methods` },
+    { text: "Objects", link: `${prefix}/java-objects` },
+    { text: "Operators", link: `${prefix}/java-operators` },
+    { text: "Packages", link: `${prefix}/java-packages` },
+    { text: "Polymorphism", link: `${prefix}/java-polymorphism` },
+    { text: "Static Keyword", link: `${prefix}/java-static-keyword` },
+    { text: "String", link: `${prefix}/java-strings` },
+    { text: "Super Keyword", link: `${prefix}/java-super-keyword` },
+    { text: "Switch", link: `${prefix}/java-switch` },
+    { text: "this Keyword", link: `${prefix}/java-this-keyword` },
+    { text: "Threads", link: `${prefix}/java-threads` },
+    { text: "User Input", link: `${prefix}/java-user-input` },
+    { text: "Variables", link: `${prefix}/java-variables` },
+    { text: "While Loop", link: `${prefix}/java-while-loop` },
+  ];
+}
