@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         text: "CDR",
-        link: "/cdr/getting-started",
+        link: "/cdr/v1.0.0/getting-started",
       },
     ],
     sidebar: [
