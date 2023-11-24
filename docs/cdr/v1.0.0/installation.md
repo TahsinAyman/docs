@@ -23,7 +23,7 @@ Options:
 
 Commands:
   new [options] <project-name>  Create a Project
-  generate|g <project-name>     Create a Module For The Project
+  generate|g <module-name>     Create a Module For The Project
   help [command]                display help for command
 ```
 
