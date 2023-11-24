@@ -20,7 +20,7 @@ const makeActions =
     createAction<T>(`${prfix}/${type}`);
 
 const creator = makeActions("api-count");
-export const fetchAllCountApi = creator("fetchAll");
+export const fetchAllCountApi = creator<void>("fetchAll");
 ```
 
 ## Creating Service (Middleware)
@@ -74,4 +74,46 @@ import { middleware as countMiddleware } from "module-path";
 const middleware: ((api: Api) => Middleware)[] = [...countMiddleware];
 
 export default middleware;
+```
+
+## Using Service (Action)
+
+Now the service action should be called in `controller` to trigger the `Service (Middleware)`. An example of this is given below:
+
+```ts
+import { apiActions } from "../service";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { State } from "src/main";
+
+export default function ListOfCount() {
+  const dispatch = useDispatch();
+  const counts = useSelector((state: State) => state.counts.list);
+
+  useEffect(() => {
+    dispatch(apiActions.fetchAllCountApi());
+  }, [dispatch]);
+
+  const data = {
+    counts,
+  };
+
+  return <ListOfCountView data={data} />;
+}
+```
+
+on the `ListOfCountView.tsx` we can use the `props.data` to get the list of count and render it to the user.
+
+```tsx
+interface Props {
+  data: {
+    counts: Count[];
+  };
+}
+
+export default function ListOfCountView(props: Props) {
+  const { counts } = props.data;
+
+  return <div>{JSON.stringify(counts)}</div>;
+}
 ```
