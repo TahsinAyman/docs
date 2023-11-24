@@ -44,3 +44,11 @@ cdr new my-project -t tailwindcss
 ```bash
 cdr new my-project -t bootstrap
 ```
+
+## Run the Project
+
+```bash
+cd my-project
+npm install
+npm run dev
+```
