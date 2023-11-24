@@ -8,9 +8,10 @@ Let's create an api called `fetchAllCounts.ts` in the `api` directory.
 
 ```ts
 import Count from "../model/Count";
+import application from "src/resources/configs/application";
 
 export default function fetchAllCounts(): Promise<Count[]> {
-  return fetch("https://api.example.com/counts")
+  return fetch(`https://${application.backend}/counts``)
     .then((response) => response.json())
     .then((json) => json as Count[]);
 }
