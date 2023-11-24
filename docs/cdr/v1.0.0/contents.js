@@ -17,5 +17,6 @@ export default function content(prefix) {
     { text: "Test API", link: `${prefix}/test-api` },
     { text: "Test Data", link: `${prefix}/test-data` },
     { text: "Test Service", link: `${prefix}/test-service` },
+    { text: "Build", link: `${prefix}/build` },
   ];
 }
