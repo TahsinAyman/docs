@@ -3,6 +3,7 @@ import cdr from "../cdr/v1.0.0/contents";
 
 module.exports = {
   title: "Full Stack Ltd",
+  description: "Full Stack Documentation Site",
   themeConfig: {
     logo: "https://fullstackbd.com/assets/images/logo-monogram.png",
     nav: [
